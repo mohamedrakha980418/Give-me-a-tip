@@ -1,0 +1,50 @@
+/* --------- main ----------- */
+/*------- header ---------*/
+header {
+  padding: 1rem;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 25px; }
+
+/* -------- content1 ---------*/
+.content-a {
+  width: 75%;
+  margin: 3rem auto; }
+  .content-a fieldset {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 3rem 0;
+    border-radius: 3rem;
+    background: linear-gradient(45deg, #1d1dbe, pink); }
+    .content-a fieldset legend {
+      padding: 1rem;
+      border-radius: 3rem;
+      background: linear-gradient(45deg, green, yellow);
+      text-align: center;
+      font-size: 25px; }
+    .content-a fieldset input[type="number"] {
+      padding: 1rem;
+      border-radius: 30px;
+      font-size: 35px;
+      text-align: center; }
+    .content-a fieldset input[type="color"] {
+      width: 100px;
+      height: 50px;
+      padding: 0.3rem;
+      border-radius: 10px; }
+  .content-a div {
+    padding: 1rem;
+    margin: 3rem 0;
+    border-radius: 3rem;
+    background: linear-gradient(45deg, #1d1dbe, pink);
+    text-align: center; }
+    .content-a div p {
+      font-size: 25px; }
+
+* {
+  padding: 0%;
+  margin: 0%; }
+
+/*# sourceMappingURL=index.css.map */
